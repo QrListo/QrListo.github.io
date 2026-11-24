@@ -13,7 +13,7 @@ var lb=$('lang');if(lb)lb.onclick=function(){lang=lang==='en'?'es':'en';try{loca
 
 var cb=$('cbtn');if(cb)cb.onclick=function(){var n=$('cn').value,e=$('ce').value,m=$('cm').value;
  var s=lang==='en'?'Message from QrReady! contact form':'Mensaje desde el formulario de QrReady!';
- location.href='mailto:TU-CORREO@ejemplo.com?subject='+encodeURIComponent(s)+'&body='+encodeURIComponent(m+'\n\n— '+n+' ('+e+')')};
+ location.href='mailto:erickxcxch@gmail.com?subject='+encodeURIComponent(s)+'&body='+encodeURIComponent(m+'\n\n— '+n+' ('+e+')')};
 
 if($('cv')){
 var TYPES={
